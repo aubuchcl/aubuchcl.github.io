@@ -1,0 +1,119 @@
+/*
+header{
+	font-size: really big;
+	color: not sure yet;
+	font-family: whatever I import via @font-face;
+	text-align: centered;
+}
+
+#ermage{
+	padding: ;
+	margin: ;
+	border: ;
+	align: left side with a stronger left margin or something to get it off the wall of the page;
+}
+
+a{
+	edit the hyperlinks to sit in positions represented in the wireframe
+}
+
+about{
+	this is the text paragraph that has to be margined to the rightside as
+	to not take away from the flow of the other sections.
+}
+*/
+@font-face {
+  font-family: 'PoiretOne';
+  src: url('font/PoiretOne-webfont.eot');
+  src: url('font/PoiretOne-webfont.eot?#iefix') format('embedded-opentype'),
+       url('font/PoiretOne-webfont.woff') format('woff'),
+       url('font/PoiretOne-webfont.ttf') format('truetype'),
+       url('font/PoiretOne-webfont.svg#PoiretOne') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{
+	background-color: grey;
+	font-family: 'PoiretOne';
+	color: black;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a{
+	text-align: left;
+	border: solid, 2em;
+	margin: auto;
+	padding: 1em;
+
+
+}
+
+a:hover {
+  color: #BC2F36;
+}
+
+#para{
+	text-align: right;
+	float: right;
+	width: 3em;
+	height: 10em;
+	font-family: 'PoiretOne';
+}
+
+h1{
+	text-align: center;
+	margin: auto;
+	padding: auto;
+	background-color: black;
+	color: Orange;
+
+}
+h2{
+	text-align: center;
+	margin: auto;
+	padding: auto;
+	color: red;
+	background-color: black;
+}
+h3{
+	text-align: center;
+	background-color: green;
+	color: yellow;
+	margin: 3em;
+	padding: 3em;
+	border: solid 1em;
+
+}
+#ermage{
+	padding-top: 3em;
+	padding-bottom: 2em;
+	padding-left: 0em;
+	padding-right: 2em;
+	margin: auto;
+
+}
+
+img{
+	padding-top: 3em;
+	padding-bottom: 2em;
+	padding-left: 0em;
+	padding-right: 2em;
+	margin: auto;
+}
+
+#blank{
+	color: grey;
+}
+
+
+
+
+
+
+
+
+
+
+

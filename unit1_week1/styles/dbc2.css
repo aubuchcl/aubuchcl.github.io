@@ -1,0 +1,32 @@
+a:link{color: #0066FF;} /* unvisited link */
+a:visited{color: #9900CC;} /* visited link */
+a:hover{color: #33CC33;} /* hovering over link */
+a:active{color: #00FFFF;} /*link is active*/
+
+.red{
+	color: red;
+}
+#boxed{
+	text-align: center;
+	padding: 25px;
+	margin: auto;
+	border: 10px solid #ff0000;
+}
+#divver{
+	width: auto;
+	height: 25px;
+}
+.align_left{
+	float: left;
+	text-align: left;
+	width: 45px;
+	height: auto;
+}
+#footer{
+	bottom: 0;
+	width: auto;
+	height: 45px;
+}
+abs_img{
+	position: absolute;
+}
