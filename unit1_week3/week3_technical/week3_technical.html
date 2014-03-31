@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+	<title>BLOGGER</title>
+</head>	
+<body>
+	<!-- Replace all things that say template -->
+	<h1>Ruby looping: A closer look!</h1> 
+	<!-- Menu bar that should go under header and span accross the top -->
+	<div id="links">
+		<ul>
+			<li>
+				<a href="https://www.facebook.com/chris.aubuchon.3">Facebook me</a>
+			</li>
+			<li>
+				<a href="http://www.soundcloud.com">Soundcloud</a>
+			</li>
+		</ul>
+	</div>
+	<!-- h3 should be used to title the blog entry -->
+	<h2 id="parahead">Map When?</h3>
+	<!-- This blog will have text and then a picture and then text and then a picture etc
+				the feel of the blog will be almost like mad libs -->
+	<div class="parag"  id="p1">
+		<p>
+			All examples can be found @ <a href="http://www.potstuck.com/2011/07/25/map-if-in-ruby-and-an-introduction-to-rubys-inject/">Examples</a>
+		</p>
+		<p>
+			So you got yourself some data and you want to change, view, or in essence just “do something” to all or some of the data you have. 
+		</p>
+		<p>
+			You have also chosen Ruby, because it is awesome and makes sense to you.
+		</p>
+		<p>
+			So what do you do now?
+		</p>
+		<p>
+			I would say that you have a lot of options, many more than I could ever cover in one blog post. So we will make an assumption here:
+		</p>
+		<p>
+			Our assumption is this:  We want to loop through some data and we think that we want to use array#map but we are not sure.
+		</p>
+		<p>
+			Here is how we will figure that out.
+		</p>
+		<p>
+			Would you like to manipulate all the data in your set with the same amount of change?
+			</p>
+			<p> 
+			If your answer is yes then feel free to fire away with your map iterator and you can add new data to all of your data points.
+		</p>
+		<p>
+			What if I only want to change a couple items?
+		</p>
+		<p>
+			Relax I'm getting to that!
+		</p>
+		<p>
+			Is your data is all the same type and you only want to change a few different pieces?
+		</p>
+		<p>
+			If so, you can still use map, but you have to use select to show map what values you would like to “map” the value change to.   (see example on link)
+		</p>
+		<p>
+			Hey I heard people on stackoverflow talking about injecting this and injecting that.  Is that something that is viable here?
+		</p>
+		<p>
+			Well lucky for you I am not J. Nicholson or I would say “You can’t handle the inject” :).
+		</p>
+		<p>
+			Lets talk about what inject really is.  Inject, when I think about it, is like a legal arbitrator.  It has a value before it is called “[value].inject[value]” and one after.  It listens to both sides in a secret room |secret, room| and outputs a new value based on the desired arbitration rules that can be committed under the call.  If you are looking for a more tech version of this see the examples on the site I posted above.
+		</p>
+		<p>
+			<strong>Keep reading and researching to really master when to use these powerful tools!</strong>
+		</p>
+	</div>
+
+</body>
+
+
+</html>
